@@ -8,5 +8,1515 @@ exports[`renders correctly 1`] = `
       "backgroundColor": "#F3F3F3",
     }
   }
-/>
+>
+  <View
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "avgRating": 4.2,
+            "id": "1",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleanarchitecture.jpg",
+            "oldPrice": 24.06,
+            "price": 20.98,
+            "ratings": 1325,
+            "title": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+          },
+          Object {
+            "avgRating": 4.8,
+            "id": "2",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleancode.jpg",
+            "oldPrice": 34.06,
+            "price": 32.98,
+            "ratings": 2989,
+            "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          },
+          Object {
+            "avgRating": 3.8,
+            "id": "3",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/imac1.jpg",
+            "price": 4206.9,
+            "ratings": 2989,
+            "title": "New 2021 Imac",
+          },
+          Object {
+            "avgRating": 4.8,
+            "id": "4",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg",
+            "oldPrice": 120.06,
+            "price": 99.98,
+            "ratings": 2989,
+            "title": "Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer",
+          },
+          Object {
+            "avgRating": 4.8,
+            "id": "5",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard2.jpg",
+            "oldPrice": 120.06,
+            "price": 99.98,
+            "ratings": 2989,
+            "title": "Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer",
+          },
+          Object {
+            "avgRating": 4.8,
+            "id": "6",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg",
+            "oldPrice": 120.06,
+            "price": 99.98,
+            "ratings": 2989,
+            "title": "Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard",
+          },
+          Object {
+            "avgRating": 4.8,
+            "id": "7",
+            "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg",
+            "oldPrice": 120.06,
+            "price": 99.98,
+            "ratings": 2989,
+            "title": "Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleanarchitecture.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Clean Architecture: A Craftsman's Guide to Software Structure and Design
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  1325
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                20.98
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "textDecorationLine": "line-through",
+                    }
+                  }
+                >
+                   $
+                  24.06
+                   
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/cleancode.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Clean Code: A Handbook of Agile Software Craftsmanship
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  2989
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                32.98
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "textDecorationLine": "line-through",
+                    }
+                  }
+                >
+                   $
+                  34.06
+                   
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/imac1.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                New 2021 Imac
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  2989
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                4206.9
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  2989
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                99.98
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "textDecorationLine": "line-through",
+                    }
+                  }
+                >
+                   $
+                  120.06
+                   
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard2.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  2989
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                99.98
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "textDecorationLine": "line-through",
+                    }
+                  }
+                >
+                   $
+                  120.06
+                   
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse1.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  2989
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                99.98
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "textDecorationLine": "line-through",
+                    }
+                  }
+                >
+                   $
+                  120.06
+                   
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderColor": "#d1d1d1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginVertical": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg",
+                }
+              }
+              style={
+                Object {
+                  "flex": 2,
+                  "height": 150,
+                  "resizeMode": "contain",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "padding": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={3}
+                style={
+                  Object {
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "marginVertical": 5,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#e47911",
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "margin": 0.5,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                  2989
+                </Text>
+              </View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                from $
+                99.98
+                <Text
+                  style={
+                    Object {
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "textDecorationLine": "line-through",
+                    }
+                  }
+                >
+                   $
+                  120.06
+                   
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
 `;
