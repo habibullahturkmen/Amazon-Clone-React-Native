@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderColor": "#d1d1d1",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "marginVertical": 5,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "",
+      }
+    }
+    style={
+      Object {
+        "flex": 2,
+        "height": 150,
+        "resizeMode": "contain",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 3,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      numberOfLines={3}
+      style={
+        Object {
+          "fontSize": 18,
+        }
+      }
+    >
+      New Book
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginVertical": 5,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#e47911",
+              "fontSize": 18,
+            },
+            Object {
+              "margin": 0.5,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#e47911",
+              "fontSize": 18,
+            },
+            Object {
+              "margin": 0.5,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#e47911",
+              "fontSize": 18,
+            },
+            Object {
+              "margin": 0.5,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#e47911",
+              "fontSize": 18,
+            },
+            Object {
+              "margin": 0.5,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#e47911",
+              "fontSize": 18,
+            },
+            Object {
+              "margin": 0.5,
+            },
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text>
+         
+        20
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      from $
+      100
+      <Text
+        style={
+          Object {
+            "fontSize": 12,
+            "fontWeight": "normal",
+            "textDecorationLine": "line-through",
+          }
+        }
+      >
+         $
+        99
+         
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
