@@ -7,8 +7,11 @@ const HomeScreen = () => {
     return (
         <View style={styles.page}>
             {/* Render Product Component */}
-
-            <FlatList data={products} renderItem={({ item }) => <ProductItem item={item} />} />
+            <FlatList
+                data={products}
+                renderItem={({ item }) => <ProductItem item={item} />}
+                showsVerticalScrollIndicator={false}
+            />
         </View>
     );
 };
